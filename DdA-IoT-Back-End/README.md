@@ -1,0 +1,1 @@
+## Carpeta destinada a la documentación del backend, incluyendo arquitectura, base de datos, APIs, configuración del broker, detalles sobre Docker, y cualquier información relevante para esa parte.

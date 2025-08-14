@@ -1,0 +1,1 @@
+## Carpeta destinada a la documentación del front-end o la aplicación web, con explicaciones sobre el diseño, tecnologías utilizadas (HTML, CSS, JavaScript), cómo se despliega la página, y cualquier otro detalle técnico.

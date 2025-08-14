@@ -1,0 +1,1 @@
+## Carpeta destinada a la documentación relacionada con el dispositivo embebido, como diagramas, protocolos de comunicación, configuraciones, sensores utilizados, esquemas eléctricos, etc.
