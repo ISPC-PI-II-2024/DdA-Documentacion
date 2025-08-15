@@ -15,8 +15,6 @@ Diseñar y desarrollar un frontend educativo que permita a estudiantes visualiza
 ## 📂 Estructura del repositorio
 | Carpeta | Contenido |
 |--------|---------|
-| `a_requisitos/` | Definición del problema, objetivos y funcionalidades |
-| `b_investigacion/` | Fundamentos técnicos, protocolos y arquitectura |
-| `c_prototipo/` | Código del frontend, pruebas y evidencias |
-| `d_presentacion/` | Presentación final, guion y reflexión |
-| `assets/` | Imágenes, diagramas y recursos multimedia |
+| `Back-End de DdA-IoT` | |
+| `Aplicacion web DdA-IoT` |  |
+| `DdA_Dispositivo_Embebido` | |
