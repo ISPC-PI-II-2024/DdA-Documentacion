@@ -1,4 +1,4 @@
-[![ISPC-Logos-2024BFH.jpg](https://i.postimg.cc/7YHBd5Vm/ISPC-Logos-2024BFH.jpg)](https://postimg.cc/LhWBZ6G1)
+[![ISPC-Logos.jpg](https://i.postimg.cc/Bv7q789k/ISPC-Logos.jpg)](https://postimg.cc/rdWXKwpN)
 
 IoT Monitoring Platform Backend
 Una plataforma backend completa para monitoreo IoT construida con Node.js, Express, WebSockets y MQTT.
