@@ -1,5 +1,4 @@
-[![ISPC-Logos-2024BFH.jpg](https://i.postimg.cc/7YHBd5Vm/ISPC-Logos-2024BFH.jpg)](https://postimg.cc/LhWBZ6G1)
-
+[![ISPC-Logos.jpg](https://i.postimg.cc/Bv7q789k/ISPC-Logos.jpg)](https://postimg.cc/rdWXKwpN)
 
 # Sistema Embebido IoT para Monitoreo de Sensores
 
