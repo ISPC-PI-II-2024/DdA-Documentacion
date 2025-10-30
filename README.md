@@ -249,15 +249,16 @@ markdown
 - Material de evaluación
 
 ## 🗂️ Estructura de Documentación
-📁 PROYECTO-FISICO/ # Demostraciones presenciales
-📁 DOCUMENTACION-TECNICA/ # Docs técnicas por área
-📁 PROCESO-DESARROLLO/ # Actas y decisiones
-📁 MATERIAL-EDUCATIVO/ # Contenido didáctico
-📁 PRESENTACIONES/ # Material para exposiciones
-📁 INTEGRACION-SISTEMAS/ # Documentación integral
-📁 EVALUACION-PROYECTO/ # Métricas y feedback
 
-text
+| Carpeta | Descripción |
+|---------|-------------|
+| **📁 PROYECTO-FISICO/** | Demostraciones presenciales y materiales físicos |
+| **📁 DOCUMENTACION-TECNICA/** | Documentación técnica por área especializada |
+| **📁 PROCESO-DESARROLLO/** | Actas de reunión y decisiones técnicas |
+| **📁 MATERIAL-EDUCATIVO/** | Contenido didáctico y tutoriales |
+| **📁 PRESENTACIONES/** | Material para exposiciones y demostraciones |
+| **📁 INTEGRACION-SISTEMAS/** | Documentación integral del sistema |
+| **📁 EVALUACION-PROYECTO/** | Métricas, feedback y mejoras continuas |
 
 ## 🚀 Cómo Usar Esta Documentación
 
