@@ -1,44 +1,56 @@
 [![ISPC-Logos-2024BFH.jpg](https://i.postimg.cc/7YHBd5Vm/ISPC-Logos-2024BFH.jpg)](https://postimg.cc/LhWBZ6G1)
 
-Repositorio de Sistemas Embebidos - Proyecto IoT Educativo
 
+# Sistema Embebido IoT para Monitoreo de Sensores
+
+Sistema educativo para monitoreo de temperatura y humedad en silos usando ESP32, ESP8266 y comunicación LoRa/RS485.
+## 📂 Estructura del Repositorio
+
+```
 sistemas-embebidos-iot/
-├── 📚 DOCUMENTACION/
-│   ├── 📄 Estado_del_arte_IoT_educativo.md
-│   ├── 📄 Protocolos_comunicacion_IoT.md
-│   ├── 📄 Guia_configuracion_VSCode.md
-│   └── 📄 Arquitectura_sistema_completo.md
-├── 🔧 HARDWARE/
-│   ├── 📄 Endpoint_ESP32C3/
+│
+├──  DOCUMENTACION/
+│   ├── Estado_del_arte_IoT_educativo.md
+│   ├── Protocolos_comunicacion_IoT.md
+│   ├── Guia_configuracion_VSCode.md
+│   └── Arquitectura_sistema_completo.md
+│
+├──  HARDWARE/
+│   ├── Endpoint_ESP32C3/
 │   │   ├── Esquematico_conexiones.md
 │   │   ├── Lista_materiales.md
 │   │   └── Pinout_ESP32C3.md
-│   ├── 📄 Gateway_ESP32/
+│   │
+│   ├── Gateway_ESP32/
 │   │   ├── Esquematico_conexiones.md
 │   │   ├── Lista_materiales.md
 │   │   └── Pinout_ESP32_Acebott.md
-│   └── 📄 Sensor_ESP8266/
+│   │
+│   └── Sensor_ESP8266/
 │       ├── Esquematico_conexiones.md
 │       └── Lista_materiales.md
-├── 💻 SOFTWARE/
-│   ├── 🔹 Endpoint_ESP32C3/
-│   │   ├── 📁 src/
+│
+├──  SOFTWARE/
+│   ├── Endpoint_ESP32C3/
+│   │   ├── src/
 │   │   │   ├── main.cpp
 │   │   │   ├── comunicacion_rs485.h
 │   │   │   ├── comunicacion_lora.h
 │   │   │   └── config.h
 │   │   ├── platformio.ini
 │   │   └── README.md
-│   ├── 🔹 Sensor_ESP8266/
-│   │   ├── 📁 src/
+│   │
+│   ├── Sensor_ESP8266/
+│   │   ├── src/
 │   │   │   ├── main.cpp
 │   │   │   ├── sensor_aht10.h
 │   │   │   ├── comunicacion_rs485.h
 │   │   │   └── config.h
 │   │   ├── platformio.ini
 │   │   └── README.md
-│   └── 🔹 Gateway_ESP32/
-│       ├── 📁 src/
+│   │
+│   └── Gateway_ESP32/
+│       ├── src/
 │       │   ├── main.cpp
 │       │   ├── comunicacion_lora.h
 │       │   ├── comunicacion_gsm.h
@@ -46,27 +58,27 @@ sistemas-embebidos-iot/
 │       │   └── config.h
 │       ├── platformio.ini
 │       └── README.md
-├── ⚙️ CONFIGURACION/
+│
+├──  CONFIGURACION/
 │   ├── c_cpp_properties.json
 │   ├── settings.json
 │   └── platformio_template.ini
-├── 📋 DIAGRAMAS/
+│
+├──  DIAGRAMAS/
 │   ├── Arquitectura_sistema.dia
 │   ├── Flujo_comunicacion.md
 │   └── Secuencia_operacion.md
-└── 📄 README.md
-# Sistema Embebido IoT para Monitoreo de Sensores
+│
+└── README.md
 
-Sistema educativo para monitoreo de temperatura y humedad en silos usando ESP32, ESP8266 y comunicación LoRa/RS485.
-
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 Sistema distribuido para educación en telecomunicaciones que incluye:
 - **Sensores ESP8266** con AHT10
 - **Endpoint ESP32-C3** como coordinador
 - **Gateway ESP32** con GSM y LCD
 - Comunicación RS485 + LoRa
 
-## 🛠️ Componentes Hardware
+##  Componentes Hardware
 - ESP32-C3 Mini
 - ESP32 Acebott
 - ESP8266
@@ -75,9 +87,9 @@ Sistema distribuido para educación en telecomunicaciones que incluye:
 - Sensores AHT10
 - Módulos GSM SimCom 800L
 
-## 📁 Estructura
+##  Estructura
 Consulta cada carpeta para documentación específica y código fuente.
-📚 DOCUMENTACION/Estado_del_arte_IoT_educativo.md
+ DOCUMENTACION/Estado_del_arte_IoT_educativo.md
 markdown
 # Estado del Arte en IoT Educativo
 
@@ -93,7 +105,7 @@ Falta de herramientas visuales, interactivas y abiertas para explorar conceptos 
 - Interfaz web simple y moderna
 - Enfoque educativo explícito
 - Código abierto y documentado
-🔧 HARDWARE/Endpoint_ESP32C3/Esquematico_conexiones.md
+ HARDWARE/Endpoint_ESP32C3/Esquematico_conexiones.md
 markdown
 # Conexiones EndPoint ESP32-C3 Mini
 
@@ -120,7 +132,7 @@ markdown
 | GPIO0       | RO     | Receiver Output |
 | GPIO2       | DE+RE  | Control |
 | GPIO1       | DI     | Driver Input |
-💻 SOFTWARE/Endpoint_ESP32C3/src/main.cpp
+ SOFTWARE/Endpoint_ESP32C3/src/main.cpp
 cpp
 #include <Arduino.h>
 #include "comunicacion_rs485.h"
@@ -169,7 +181,7 @@ void loop() {
     // Espera resto del ciclo
     delay(CICLO_COMPLETO - 55000);
 }
-⚙️ CONFIGURACION/c_cpp_properties.json
+ CONFIGURACION/c_cpp_properties.json
 json
 {
     "configurations": [
@@ -187,7 +199,7 @@ json
     ],
     "version": 4
 }
-🎯 Características del Repositorio
+ Características del Repositorio
 Documentación completa de hardware y software
 
 Código modular para cada componente del sistema
