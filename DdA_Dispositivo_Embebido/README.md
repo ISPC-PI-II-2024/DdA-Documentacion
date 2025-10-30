@@ -2,7 +2,6 @@
 
 Repositorio de Sistemas Embebidos - Proyecto IoT Educativo
 
-📁 Estructura del Repositorio
 sistemas-embebidos-iot/
 ├── 📚 DOCUMENTACION/
 │   ├── 📄 Estado_del_arte_IoT_educativo.md
@@ -56,7 +55,6 @@ sistemas-embebidos-iot/
 │   ├── Flujo_comunicacion.md
 │   └── Secuencia_operacion.md
 └── 📄 README.md
-
 # Sistema Embebido IoT para Monitoreo de Sensores
 
 Sistema educativo para monitoreo de temperatura y humedad en silos usando ESP32, ESP8266 y comunicación LoRa/RS485.
