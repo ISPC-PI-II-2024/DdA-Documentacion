@@ -1,3 +1,5 @@
+[![ISPC-Logos-2024BFH.jpg](https://i.postimg.cc/7YHBd5Vm/ISPC-Logos-2024BFH.jpg)](https://postimg.cc/LhWBZ6G1)
+
 Web App - IoT Monitoring Platform
 Una aplicación web moderna para monitoreo en tiempo real de dispositivos IoT, construida con JavaScript vanilla y arquitectura reactiva.
 
