@@ -24,7 +24,10 @@ Proveer una documentación centralizada, clara y detallada de los tres component
 | Tiziano Paez                    | [@tpaez](https://github.com/tpaez) |
 | María Lilen Guzmán              | [@lilenguzman01](https://github.com/lilenguzman01) 
 | Juan Diego Gonzalez Antoniazzi  | [@JDGA1997](https://github.com/JDGA1997) | 
-| Diego Ezequiel Ares             | [@diegote7](https://github.com/diegote7) |    
+| Diego Ezequiel Ares             | [@diegote7](https://github.com/diegote7) |  
+| Bruno Mauro Razzotti            | [@BrunoRazzotti](https://github.com/Emygut) |
+| Emma Vilma Gutierrez            | [@Emygut](https://github.com/BrunoRazzotti) |                    |
+
 ## ## 📂 Estructura del Repositorio
 
 ```
